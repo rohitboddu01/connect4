@@ -1,0 +1,42 @@
+body{
+    height: 96vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbe7c6;
+}
+.board{
+    background-color:#b4f8c8;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    
+}
+.but{
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    background-color: white;
+}
+.blue{
+    background-color:#a0e7e5;
+}
+.pink{
+    background-color:#ffaebc;
+}
+#reset{
+    margin-top: 10px;
+    height: 2rem;
+    width: 7rem;
+}
+button{
+    height: 2rem;
+   
+    margin-right: 20px;
+}
